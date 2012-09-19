@@ -1,0 +1,46 @@
+
+#ifndef __version_h__included__
+#define __version_h__included__
+
+#include <fff.h>
+
+#define MAJOR_VERSION_INT 1
+#define MAJOR_VERSION_STR fff_STRINGIFY(MAJOR_VERSION_INT)
+
+#define SUB_VERSION_INT 0
+#define SUB_VERSION_STR fff_STRINGIFY(SUB_VERSION_INT)
+
+
+#define RELEASE_NUMBER_INT 0
+#define RELEASE_NUMBER_STR fff_STRINGIFY(RELEASE_NUMBER_INT)
+
+
+#define BUILD_NUMBER_INT 1
+#define BUILD_NUMBER_STR fff_STRINGIFY(BUILD_NUMBER_INT)
+
+#define FULL_VERSION_STR MAJOR_VERSION_STR "." SUB_VERSION_STR "." RELEASE_NUMBER_STR
+
+#define PLUGIN_NAME "TripleF"
+//#define ORIGINAL_FILENAME PLUGIN_NAME ".vst3"
+
+#define PLUGIN_DESCPREFIX PLUGIN_NAME " - LTI-Filter"
+
+#if DEVELOPMENT
+#	define PLUGIN_DESCPOSTFIX " DEBUG"
+#else
+#	define PLUGIN_DESCPOSTFIX " "
+#endif
+
+#if PLATFORM_64
+#	define PLUGIN_DESCBITVERSION	" (64Bit)"
+#else
+#	define PLUGIN_DESCBITVERSION	" "
+#endif
+
+#define PLUGIN_DESCRIPTION	PLUGIN_DESCPREFIX PLUGIN_DESCBITVERSION PLUGIN_DESCPOSTFIX
+
+#define COMPANY_NAME		"Virtual Company"
+#define LEGAL_COPYRIGHT		"(c) Philipp Renoth"
+#define LEGAL_TRADEMARKS	"VST (R) is a trademark of Steinberg Media Technologies GmbH"
+
+#endif

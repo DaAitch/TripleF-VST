@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="vst3">
+      <UniqueIdentifier>{b3247aa2-af90-4fe2-ae3b-9efbcf298ccf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vst3\public.sdk">
+      <UniqueIdentifier>{5775498d-4ce6-483c-9405-49044901d3d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vst3\pluginterfaces">
+      <UniqueIdentifier>{51ba4729-3627-4f67-a208-0fde731c98ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vst3\pluginterfaces\base">
+      <UniqueIdentifier>{41484ecd-8e49-4f3d-a18f-57146f38ffc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vst3\public.sdk\vst">
+      <UniqueIdentifier>{85996f7d-ab06-4bcc-8cc6-1473fd21e492}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vst3\public.sdk\common">
+      <UniqueIdentifier>{33e57e67-2fcf-4e27-b465-fd9743501af4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vst3\public.sdk\main">
+      <UniqueIdentifier>{7fa816d0-fe74-496e-b000-1fe7273480c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vst3\vstgui.sf">
+      <UniqueIdentifier>{9b9b70f6-0fe7-4bf5-833e-6767c85c49a0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="vsttools.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="fffinit.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="TripleFProcessor.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="version.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VST3SDK\pluginterfaces\base\conststringtable.h">
+      <Filter>vst3\pluginterfaces\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VST3SDK\pluginterfaces\base\falignpop.h">
+      <Filter>vst3\pluginterfaces\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VST3SDK\pluginterfaces\base\falignpush.h">
+      <Filter>vst3\pluginterfaces\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VST3SDK\pluginterfaces\base\fplatform.h">
+      <Filter>vst3\pluginterfaces\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VST3SDK\pluginterfaces\base\fstrdefs.h">
+      <Filter>vst3\pluginterfaces\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VST3SDK\pluginterfaces\base\ftypes.h">
+      <Filter>vst3\pluginterfaces\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VST3SDK\pluginterfaces\base\funknown.h">
+      <Filter>vst3\pluginterfaces\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VST3SDK\pluginterfaces\base\futils.h">
+      <Filter>vst3\pluginterfaces\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VST3SDK\pluginterfaces\base\ibstream.h">
+      <Filter>vst3\pluginterfaces\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VST3SDK\pluginterfaces\base\icloneable.h">
+      <Filter>vst3\pluginterfaces\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VST3SDK\pluginterfaces\base\ierrorcontext.h">
+      <Filter>vst3\pluginterfaces\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VST3SDK\pluginterfaces\base\ipersistent.h">
+      <Filter>vst3\pluginterfaces\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VST3SDK\pluginterfaces\base\ipluginbase.h">
+      <Filter>vst3\pluginterfaces\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VST3SDK\pluginterfaces\base\istringresult.h">
+      <Filter>vst3\pluginterfaces\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VST3SDK\pluginterfaces\base\iupdatehandler.h">
+      <Filter>vst3\pluginterfaces\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VST3SDK\pluginterfaces\base\keycodes.h">
+      <Filter>vst3\pluginterfaces\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VST3SDK\pluginterfaces\base\ustring.h">
+      <Filter>vst3\pluginterfaces\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VST3SDK\public.sdk\source\common\memorystream.h">
+      <Filter>vst3\public.sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VST3SDK\public.sdk\source\common\pluginview.h">
+      <Filter>vst3\public.sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VST3SDK\public.sdk\source\main\pluginfactoryvst3.h">
+      <Filter>vst3\public.sdk\main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VST3SDK\public.sdk\source\vst\vstaudioeffect.h">
+      <Filter>vst3\public.sdk\vst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VST3SDK\public.sdk\source\vst\vstbus.h">
+      <Filter>vst3\public.sdk\vst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VST3SDK\public.sdk\source\vst\vstcomponent.h">
+      <Filter>vst3\public.sdk\vst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VST3SDK\public.sdk\source\vst\vstcomponentbase.h">
+      <Filter>vst3\public.sdk\vst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VST3SDK\public.sdk\source\vst\vsteditcontroller.h">
+      <Filter>vst3\public.sdk\vst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VST3SDK\public.sdk\source\vst\vstguieditor.h">
+      <Filter>vst3\public.sdk\vst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VST3SDK\public.sdk\source\vst\vstnoteexpressiontypes.h">
+      <Filter>vst3\public.sdk\vst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VST3SDK\public.sdk\source\vst\vstparameters.h">
+      <Filter>vst3\public.sdk\vst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VST3SDK\public.sdk\source\vst\vstpresetfile.h">
+      <Filter>vst3\public.sdk\vst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VST3SDK\public.sdk\source\vst\vstrepresentation.h">
+      <Filter>vst3\public.sdk\vst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VST3SDK\vstgui.sf\vstgui\cvstguitimer.h">
+      <Filter>vst3\vstgui.sf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VST3SDK\vstgui.sf\vstgui\vstcontrols.h">
+      <Filter>vst3\vstgui.sf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VST3SDK\vstgui.sf\vstgui\vstgui.h">
+      <Filter>vst3\vstgui.sf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VST3SDK\vstgui.sf\vstgui\vstguidebug.h">
+      <Filter>vst3\vstgui.sf</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="factory.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="TripleFProcessor.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VST3SDK\pluginterfaces\base\conststringtable.cpp">
+      <Filter>vst3\pluginterfaces\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VST3SDK\pluginterfaces\base\funknown.cpp">
+      <Filter>vst3\pluginterfaces\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VST3SDK\pluginterfaces\base\ustring.cpp">
+      <Filter>vst3\pluginterfaces\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VST3SDK\public.sdk\source\common\memorystream.cpp">
+      <Filter>vst3\public.sdk\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VST3SDK\public.sdk\source\common\pluginview.cpp">
+      <Filter>vst3\public.sdk\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VST3SDK\public.sdk\source\main\dllmain.cpp">
+      <Filter>vst3\public.sdk\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VST3SDK\public.sdk\source\main\pluginfactoryvst3.cpp">
+      <Filter>vst3\public.sdk\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VST3SDK\public.sdk\source\vst\vstaudioeffect.cpp">
+      <Filter>vst3\public.sdk\vst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VST3SDK\public.sdk\source\vst\vstbus.cpp">
+      <Filter>vst3\public.sdk\vst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VST3SDK\public.sdk\source\vst\vstcomponent.cpp">
+      <Filter>vst3\public.sdk\vst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VST3SDK\public.sdk\source\vst\vstcomponentbase.cpp">
+      <Filter>vst3\public.sdk\vst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VST3SDK\public.sdk\source\vst\vsteditcontroller.cpp">
+      <Filter>vst3\public.sdk\vst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VST3SDK\public.sdk\source\vst\vstguieditor.cpp">
+      <Filter>vst3\public.sdk\vst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VST3SDK\public.sdk\source\vst\vstinitiids.cpp">
+      <Filter>vst3\public.sdk\vst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VST3SDK\public.sdk\source\vst\vstnoteexpressiontypes.cpp">
+      <Filter>vst3\public.sdk\vst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VST3SDK\public.sdk\source\vst\vstparameters.cpp">
+      <Filter>vst3\public.sdk\vst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VST3SDK\public.sdk\source\vst\vstpresetfile.cpp">
+      <Filter>vst3\public.sdk\vst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VST3SDK\public.sdk\source\vst\vstrepresentation.cpp">
+      <Filter>vst3\public.sdk\vst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VST3SDK\vstgui.sf\vstgui\cvstguitimer.cpp">
+      <Filter>vst3\vstgui.sf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VST3SDK\vstgui.sf\vstgui\vstcontrols.cpp">
+      <Filter>vst3\vstgui.sf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VST3SDK\vstgui.sf\vstgui\vstgui.cpp">
+      <Filter>vst3\vstgui.sf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VST3SDK\vstgui.sf\vstgui\vstguidebug.cpp">
+      <Filter>vst3\vstgui.sf</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="triplef-vst.def">
+      <Filter>Quelldateien</Filter>
+    </None>
+  </ItemGroup>
+</Project>
